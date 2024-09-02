@@ -18,11 +18,7 @@ const uploadFile = require('./modules/upload-file');
 const pathToUrl = require('./modules/path-to-url');
 
 function watcher() {
-<<<<<<< HEAD
   inlineCss(uploadFile.bind(this, pathToUrl));
-=======
-  inlineCss(uploadFile.bind(this, pathToUrl.bind(this, server)));
->>>>>>> 7fa2113fe3bc7b8629f91a49b12937361422b598
 }
 
 if (mode === 'dev') {
